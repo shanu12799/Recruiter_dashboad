@@ -19,7 +19,11 @@ export const Login = ({ setToken }) => {
   const sendData = async e => {
     setFlag(false);
     e.preventDefault();
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) === false) {
+    if (
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+        email
+      ) === false
+    ) {
       setValidate({ ...validate, email: true });
       return;
     } else {
