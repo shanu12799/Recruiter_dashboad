@@ -1,0 +1,83 @@
+.app__home {
+  height: 400px;
+  background: #1a253c;
+  position: relative;
+  padding: 40px 130px;
+  display: flex;
+}
+.app__home_title h2 {
+  color: white;
+  padding-right: 30px;
+  font-size: 60px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.app__home_title span {
+  color: #43afff;
+}
+.app_home_button {
+  width: 148px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #43afff;
+  letter-spacing: 0.5;
+  border-radius: 5px;
+  background: #43afff 0% 0% no-repeat padding-box;
+}
+.app_home_button a {
+  color: white;
+  text-decoration: none;
+}
+.app__home_section {
+  padding-top: 8rem;
+  background: #edf6ff;
+  height: 110vh;
+}
+.app_home_container {
+  width: 1000px;
+  /* padding: 0px px; */
+  margin: 0 auto;
+}
+.app_home_cards {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+.cards {
+  height: 192px;
+  width: 341px;
+  box-shadow: 0px 3px 6px #557da526;
+  border-radius: 5px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 20px;
+}
+.cards h3 {
+  font-size: 22px;
+  color: #43afff;
+}
+.cards p {
+  font-size: 14px;
+  margin-top: 30px;
+}
+.app_home_container_company {
+  width: 1000px;
+  height: 201px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.app__home_companies {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.app__home_companies_down {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  margin-bottom: 5rem;
+}
+/* .app__home_Image img{
+   width: 
+} */

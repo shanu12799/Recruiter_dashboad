@@ -1,0 +1,32 @@
+.app__navbar {
+  height: 70px;
+  width: 100%;
+  color: white;
+  padding: 22px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1a253c;
+}
+.app__title {
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.app__title span {
+  color: #43afff;
+}
+.app_button {
+  width: 148px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #43afff;
+  letter-spacing: 0.5;
+  border-radius: 5px;
+  background: #43afff33 0% 0% no-repeat padding-box;
+}
+.app_button a {
+  color: white;
+  text-decoration: none;
+}
